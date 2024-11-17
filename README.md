@@ -18,28 +18,28 @@
 
 ### Variables
 
-* `API_HASH` Your API Hash from my.telegram.org
-* `APP_ID` Your API ID from my.telegram.org
-* `TG_BOT_TOKEN` Your bot token from @BotFather
-* `OWNER_ID` Must enter Your Telegram Id
-* `CHANNEL_ID` Your Channel ID eg:- -100xxxxxxxx
+* `API_HASH` 3139998ebc89c2bc1873b794689f8e56
+* `APP_ID` 23630387
+* `TG_BOT_TOKEN` 7476754694:AAFTlI47j82X3RIqgmID-RyEM4VXhwxpknI
+* `OWNER_ID` 7296511010
+* `CHANNEL_ID` -1002162285670
 * `DATABASE_URL` Your mongo db url
 * `DATABASE_NAME` Your mongo db session name
-* `ADMINS` Optional: A space separated list of user_ids of Admins, they can only create links
-* `START_MESSAGE` Optional: start message of bot, use HTML and <a href='https://github.com/codexbotz/File-Sharing-Bot/blob/main/README.md#start_message'>fillings</a>
+* `ADMINS` Optional: 7296511010 7458672814
+* `START_MESSAGE` Optional: start message of bot, use HTML and <a href='https://github.com/codexbotz/File-Sharing-Bot/blob/main/README.md#start_message'>HEY MSG @SHIT_PROXY_BOT</a>
 * `FORCE_SUB_MESSAGE`Optional:Force sub message of bot, use HTML and Fillings
-* `FORCE_SUB_CHANNEL` Optional: ForceSub Channel ID, leave 0 if you want disable force sub
-* `PROTECT_CONTENT` Optional: True if you need to prevent files from forwarding
+* `FORCE_SUB_CHANNEL` Optional: -1002157466253 -1002165646639 -1002162285670
+* `PROTECT_CONTENT` Optional: True
 
 ## 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠
 
 ```
 /start - start the bot or get posts
-/batch - create link for more than one posts
-/genlink - create link for one post
-/users - view bot statistics
-/broadcast - broadcast any messages to bot users
-/stats - checking your bot uptime
+/batch - create link for more than one posts(admin only)
+/genlink - create link for one post(admin only)
+/users - view bot statistics(admin only)
+/broadcast - broadcast any messages to bot users(admin only)
+/stats - checking your bot uptime(admin only)
 ```
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
